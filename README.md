@@ -30,4 +30,7 @@ type
 ```
 docker-compose run --rm --service-ports node npm install @types/redux --save-dev
 docker-compose run --rm --service-ports node npm install @types/react-redux --save-dev
+docker-compose run --rm --service-ports node npm install @types/recompose --save-dev
 ```
+
+
