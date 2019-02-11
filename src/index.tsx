@@ -8,7 +8,7 @@ import registerServiceWorker from './registerServiceWorker';
 import store from './store'
 
 ReactDOM.render(
-  <Provider stote={store}>
+  <Provider store={store}>
     <App />
   </Provider>,
   document.getElementById('root') as HTMLElement
