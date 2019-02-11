@@ -23,6 +23,11 @@ docker-compose run --rm --service-ports node npm install recompose --save
 docker-compose run --rm --service-ports node npm install typescript-fsa --save
 docker-compose run --rm --service-ports node npm install typescript-fsa-reducers --save
 docker-compose run --rm --service-ports node npm install @material-ui/core --save
-docker-compose run --rm --service-ports node docker-compose run --rm --service-ports node npm install @material-ui/icons --save
+docker-compose run --rm --service-ports node npm install @material-ui/icons --save
 ```
 
+type
+```
+docker-compose run --rm --service-ports node npm install @types/redux --save-dev
+docker-compose run --rm --service-ports node npm install @types/react-redux --save-dev
+```
